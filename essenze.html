@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essenze e Stile</title>
+    <link rel="stylesheet" href="essenze/style.css">
+    <link rel="icon" type="image/png" href="essenze/img/logos/Essenze e Stile.png">
+</head>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import {
+        initializeApp
+    } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+    import {
+        getAnalytics
+    } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyCEbXT0oGBugxAdHRVGQs3rsMnL7b_KKHA",
+        authDomain: "essenzeestile.firebaseapp.com",
+        projectId: "essenzeestile",
+        storageBucket: "essenzeestile.appspot.com",
+        messagingSenderId: "132994825396",
+        appId: "1:132994825396:web:40579ea8c504f181206be1",
+        measurementId: "G-Z9KKYQ9V97"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+
+<body>
+    <script src="essenze/js/scripts.js"></script> <!-- Enlace al archivo JavaScript -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="essenze/img/logos/Essenze e Stile.png" alt="Essenze e Stile Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="perfumes.html">Perfumes</a></li>
+                    <li><a href="#">Buzos</a></li>
+                    <li><a href="#">Monastery</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Bienvenidos a Essenze e Stile</h1>
+                    <p>La esencia del estilo urbano</p>
+                </div>
+            </section>
+
+            <section class="productos">
+                <h2>Nuestros Productos</h2>
+                <div class="productos-grid">
+
+                    <div class="producto">
+                        <img class="rotating-img" src="essenze/img/importado/IMG-20240809-WA0070.jpg" alt="Buzo">
+                        <h3>Monastery</h3>
+                        <p>Descripción breve del producto.</p>
+                    </div>
+                    <div class="producto">
+                        <a href="perfumes.html">
+                            <img class="rotating-img" src="essenze/img/perfumes/initio.jpg" alt="Perfume">
+                        </a>
+                        <h3>Perfumería importada</h3>
+                        <p>¡No esperes más y descubre nuestra amplia variedad de perfumes importados!</p>
+                    </div>
+
+                    <div class="producto">
+                        <img class="rotating-img" src="essenze/img/nacional/IMG-20240809-WA0039.jpg" alt="Buzo">
+                        <h3>Prestige & co</h3>
+                        <p>Descripción breve del producto.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Essenze e Stile. Todos los derechos reservados.</p>
+                <p>Jonathan Prieto | Diseñador de Página Web</p>
+                <div class="contact-info">
+                    <a href="https://wa.me/573005052295" target="_blank">
+                        <img src="essenze/img/logos/whatsapp.png" alt="WhatsApp Logo">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jonathan-leonardo-prieto-mancera-1b843378/" target="_blank">
+                        <img src="essenze/img/logos/linkedin.png" alt="LinkedIn Logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+
+/*index.html */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Fondo negro */
+    font-family: 'Cursive', Arial, sans-serif; /* Letra cursiva */
+}
+
+.welcome-container h1 {
+    color: #01f2ff; /* Letra azul */
+    font-size: 12.5em;
+    text-align: center;
+}
